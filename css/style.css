@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* Navbar start here  */
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    margin: 0;
+}
+ h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top: 10px;    
+    
+} 
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+a{
+    color: white; 
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+    margin: 7px 0px;
+    padding: 10px;
+   
+
+}
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+
+    
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+[class*="col-"]{
+    width: 100%;
+}
+.navbar{
+    background-color:#382933;
+    padding: 1% 7%;
+    text-align: center;
+  
+}
+.login-btn{
+    width: 200px;
+    background-color: rgb(253, 36, 36);
+    text-align: center;
+}
+/* .img{
+    width: 100px;
+    height: auto;
+} */
+.img-banner{
+    width: 390px;
+    height: auto;
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction:column;
+    text-transform: uppercase;
+}
+.navbar-menu a:hover{
+    background-color: gray;
+    border-radius: 10px;
+
+}
+.navbar-menu a{
+  background-color: #c3c0bb;
+  padding:3% 0%;
+  margin:5px;
+  border-radius: 5px;
+}
+.navbar::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+/* Navbar end here  */
+.players-profile{
+    padding:10px;
+    position: relative;
+    text-align: center;
+    background-color:#3b5249;
+}
+.profile-description{
+    padding: 20px;
+}
+.profile-description .player img{
+width: 90%;
+height: auto;
+
+}
+
+.profile-description h1{
+    
+    font-size: 2rem;
+    color:black;
+    width: 90%;
+}
+.profile-description p{   
+    
+    color:#c3c0bb;
+    text-align: left;
+     width: 90%;
+     margin: 0 auto 20px auto; 
+}
+
+
+    /*============= highlight section start here ============  */
+
+
+    .Highlight-section{
+        background-color: #439b6c;
+        padding: 1% 7%;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: sans-serif;
+    }
+    .Highlight p{
+        text-align: center;
+    }
+ 
+    .Highlight-section::after {
+        clear: both; 
+        display: table;
+        content:'';       
+    
+   }
+   .Highlight-image img{
+       border:5px solid white;
+       border-radius: 50%;
+       height:90%;
+       width: 90%;
+   }
+
+    /* highlight section end here  */
+
+    /* ====== extra work start============== */
+    .Extra-work{
+        background-color:#0c0c0c; 
+        padding: 1% 7%; 
+     
+    }
+
+    .Extra-work .Trofi{
+        background-color:transparent; 
+        border-radius: 5px;
+        padding: 10px;
+        transition: 0.3s;
+        height: auto;
+       
+       
+       
+    }
+    .Extra-work .Trofi img{
+        height: 300px;
+        width: 100%;
+    }
+    
+    .Trofi:hover{
+        box-shadow: 0px 4px 4px 4px black;
+    }
+    
+    
+   
+    
+    .Extra-work::after{
+        clear: both;
+        display: table;
+        content:'';
+    }
+ 
+    /* ========extra work end here ============ */
+
+
+ 
+    /* =======fotter section starts here=========== */
+    .fotter{
+        background-color: rgb(255, 255, 255);
+        padding: 50px 10px;
+        text-align: center;
+        color:rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+ 
+     
+    .fotter-desc i:hover{
+       color: gray;
+       text-decoration: underline;
+    } 
+    .fotter::after{
+        clear: both;
+        content: '';
+        display: table;
+    } 
+    /* ==============fotter section ends here =============*/
